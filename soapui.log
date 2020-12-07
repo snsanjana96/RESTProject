@@ -1,0 +1,23 @@
+2020-12-07 14:06:25,189 WARN  [SoapUI] Missing folder [C:\Users\SanjanaNayak\RestProjectSDET\ext] for external libraries
+2020-12-07 14:06:25,444 INFO  [DefaultSoapUICore] initialized soapui-settings from [C:\Users\SanjanaNayak\soapui-settings.xml]
+2020-12-07 14:06:29,325 INFO  [WsdlProject] Loaded project from [file:/C:/Users/SanjanaNayak/RestProjectSDET/REST-Project-SDET-soapui-project.xml]
+2020-12-07 14:06:29,983 INFO  [SoapUITestCaseRunner] Running SoapUI tests in project [REST Project_SDET]
+2020-12-07 14:06:29,985 INFO  [SoapUITestCaseRunner] Running Project [REST Project_SDET], runType = SEQUENTIAL
+2020-12-07 14:06:30,012 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [TestCase 1]
+2020-12-07 14:06:30,025 INFO  [SoapUITestCaseRunner] running step [Groovy Script]
+2020-12-07 14:06:32,121 INFO  [log] Token : ae75ef7a3cd96badf22ffb140b093b6205036e85
+2020-12-07 14:06:32,132 INFO  [SoapUITestCaseRunner] running step [Properties]
+2020-12-07 14:06:32,146 INFO  [SoapUITestCaseRunner] running step [Admin]
+2020-12-07 14:06:32,573 INFO  [SoapUITestCaseRunner] Assertion [Valid HTTP Status Codes] has status VALID
+2020-12-07 14:06:32,574 INFO  [SoapUITestCaseRunner] running step [AddNewProduct]
+2020-12-07 14:06:32,954 INFO  [SoapUITestCaseRunner] Assertion [Valid HTTP Status Codes] has status VALID
+2020-12-07 14:06:32,958 INFO  [SoapUITestCaseRunner] running step [Groovy Script to fetch ID]
+2020-12-07 14:06:33,398 INFO  [log] id : 3410
+2020-12-07 14:06:33,469 INFO  [SoapUITestCaseRunner] running step [GetProductByID]
+2020-12-07 14:06:33,872 INFO  [SoapUITestCaseRunner] Assertion [Valid HTTP Status Codes] has status VALID
+2020-12-07 14:06:33,873 INFO  [SoapUITestCaseRunner] running step [DeleteByID]
+2020-12-07 14:06:35,360 INFO  [SoapUITestCaseRunner] Assertion [Valid HTTP Status Codes] has status VALID
+2020-12-07 14:06:35,361 INFO  [SoapUITestCaseRunner] running step [CheckProductIfPresent]
+2020-12-07 14:06:35,869 INFO  [SoapUITestCaseRunner] Assertion [Script Assertion] has status VALID
+2020-12-07 14:06:35,875 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [TestCase 1], time taken: 5603ms, status: FINISHED
+2020-12-07 14:06:35,876 INFO  [SoapUITestCaseRunner] Project [REST Project_SDET] finished with status [FINISHED] in 5885ms
